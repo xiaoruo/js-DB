@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DAO模式操作数据</title>
+    <style>
+        * {margin: 0;padding: 0;}
+        .main {
+            width: 500px;
+            height: 300px;
+            margin: 50px auto;
+            border: 1px solid #3c3c3c;
+            border-radius: 3px;
+        }
+        .header {
+            width: 100%;
+            height: 40px;
+            border-bottom: 1px solid #3c3c3c;
+        }
+        .change {
+            display: inline-block;
+            padding: 3px 5px;
+            border: 1px solid #3c3c3c;
+            margin: 8px 0 0 15px;
+            text-decoration: none;
+            color: #ccc;
+            border-radius: 5px;
+        }
+        .change:hover {
+            color: #3c3c3c;
+        }
+        .add {
+            margin-left: 350px;
+        }
+        .content {
+            height: 259px;
+            overflow: auto;
+        }
+        .content p {
+            height: 40px;
+            line-height: 40px;
+            padding: 0 10px;
+        }
+        .content p:hover {
+            background-color: #9CD7FF;
+        }
+        .content p:hover .button{
+            display: inline-block;
+        }
+        .odd-color {
+            background-color: #E1F3FF;
+        }
+        .button {
+            position: relative;
+            left: 320px;
+            line-height: 15px;
+            padding: 3px 5px;
+            border: 1px solid #3c3c3c;
+            text-decoration: none;
+            color: #000;
+            border-radius: 5px;
+            display: none;
+            margin-left: 5px;
+        }
+        .button:hover {
+            background-color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <a href="#" class="change add">增加</a>
+            <a href="#" class="change">查询</a>
+        </div>
+        <div class="content">
+            <p>1111</p>
+            <p>1111</p>
+            <p>1111</p>
+            <p>1111</p>
+            <p>11111</p>
+            <p>1111</p>
+            <p>1111</p>
+            <p>1111</p>
+            <p>1111</p>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/DAO.js"></script>
+</body>
+</html>
